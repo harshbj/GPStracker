@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gps1"
+    tools:context="com.example.harshj.gpstracker.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_above="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="50dp"
+        android:textColor="#0a0909"
+        android:background="#cdffffff"
+        android:hint=" Email"/>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:inputType="textWebPassword"
+        android:layout_marginRight="5dp"
+        android:layout_height="50dp"
+        android:background="#cdffffff"
+        android:hint=" Password"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:text="Log in"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:onClick="login"
+        android:layout_below="@+id/edittext2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>

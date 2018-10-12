@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gps1"
+    tools:context="com.example.harshj.gpstracker.NameActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="60dp"
+        android:onClick="selectImage"
+        android:src="@drawable/defaultprofile"
+        app:civ_border_color="#fff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/circleImageview"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittext5"
+        android:ems="10"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Name"
+        android:background="#cdffffff"
+        android:layout_alignParentEnd="true"
+        />
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext5"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:onClick="generateCode"
+        android:layout_marginTop="60dp"/>
+</RelativeLayout>

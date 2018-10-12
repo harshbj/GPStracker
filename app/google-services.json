@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "553383448546",
+    "firebase_url": "https://gps-tracker-d7028.firebaseio.com",
+    "project_id": "gps-tracker-d7028",
+    "storage_bucket": "gps-tracker-d7028.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553383448546:android:e982279333e65b0e",
+        "android_client_info": {
+          "package_name": "com.example.harshj.gpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553383448546-guov51d63j5ggllg0dhr7nqogj8qmh2h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "553383448546-guov51d63j5ggllg0dhr7nqogj8qmh2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkdvc1WRRwMQjwtDbU-QlqNYig7YDr3bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
